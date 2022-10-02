@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round3</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .uparrow {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        border-left: 270px solid transparent;
+        border-right: 270px solid transparent;
+        border-bottom: 230px solid  #009244 ;
+
+    }
+    .uparrow::before,
+    .uparrow::after{
+        content:' ';
+        border-left: 270px solid transparent;
+        border-right: 270px solid transparent;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+    .uparrow::before{
+        top: 100px;
+        border-bottom: 230px solid  #E6E6E6;
+
+    }
+    .uparrow::after{
+        top: -80px;
+        border-bottom: 230px solid #FF7200;
+        z-index: -10;
+
+    }
+    
+</style>
+
+<body>
+    <div class="uparrow"></div>
+
+</body>
+<script>
+
+</script>
+
+</html>
+</script>
+
+</html>
